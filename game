@@ -32,6 +32,7 @@ rolls = {
 
 
 def main():
+    print("App Starting Up ...")
     print(f"App starting up, v{VERSION}")
     show_header()
     play_game("Player 1", "Computer")
