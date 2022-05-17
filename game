@@ -1,9 +1,8 @@
 import random
 import sys
 
-
 # Updated Version
-VERSION = "2.2"
+VERSION = "2.3"
 
 rolls = {
     'rock': {
@@ -40,7 +39,7 @@ def main():
 
 def show_header():
     print("---------------------------")
-    print("  Rock Paper Scissors v1.0")
+    print("  Rock Paper Scissors v2.3")
     print("---------------------------")
 
 
@@ -77,6 +76,7 @@ def play_game(player_1, player_2):
 
 
 def get_computer_roll(roll_names):
+    print("Computer biased towards the S --hint hint")
     names = roll_names + 2*[r for r in roll_names if r.startswith('s')]
     roll2 = random.choice(names)
     return roll2
