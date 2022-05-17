@@ -107,7 +107,7 @@ def check_for_winning_throw(player_1, player_2, roll1, roll2):
 
 
 def get_roll(player_name, roll_names):
-    print("Available rolls:")
+    print("Available rolls remaining:")
     for index, r in enumerate(roll_names, start=1):
         print(f"{index}. {r}")
 
