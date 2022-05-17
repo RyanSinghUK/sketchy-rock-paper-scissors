@@ -1,9 +1,8 @@
 import random
 import sys
 
-
 # Updated Version
-VERSION = "2.2"
+VERSION = "2.3"
 
 rolls = {
     'rock': {
@@ -40,7 +39,7 @@ def main():
 
 def show_header():
     print("---------------------------")
-    print("  Rock Paper Scissors v1.0")
+    print("  Rock Paper Scissors v2.3")
     print("---------------------------")
 
 
