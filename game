@@ -1,7 +1,7 @@
 import random
 import sys
 
-VERSION = "2.2"
+VERSION = "2.0"
 
 rolls = {
     'rock': {
@@ -16,10 +16,12 @@ rolls = {
         'defeats': ['paper', 'lizard'],
         'defeated_by': ['rock', 'spock']
     },
+    # Added lizard
     'lizard': {
         'defeats': ['paper', 'spock'],
         'defeated_by': ['rock', 'scissors']
     },
+    # Added spock
     'spock': {
         'defeats': ['rock', 'scissors'],
         'defeated_by': ['lizard', 'paper']
