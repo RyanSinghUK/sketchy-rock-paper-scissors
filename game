@@ -40,7 +40,7 @@ def main():
 
 def show_header():
     print("---------------------------")
-    print("  Rock Paper Scissors v2.3")
+    print("  Rock Paper Scissors v{VERSION}")
     print("---------------------------")
 
 
@@ -69,7 +69,8 @@ def play_game(player_1, player_2):
 
         # print(f"Current win status: {wins}")
 
-        print(f"Score is {player_1}: {wins[player_1]} and {player_2}: {wins[player_2]}.")
+        print(
+            f"Score is {player_1}: {wins[player_1]} and {player_2}: {wins[player_2]}.")
         print()
 
     overall_winner = find_winner(wins, wins.keys())
