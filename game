@@ -3,23 +3,23 @@ import sys
 import os
 
 # Updated Version Comment for Main Branch
-VERSION = "2.3"
+VERSION = "2.4"
 
 rolls = {
     'rock': {
-        'defeats': ['scissors', 'lizard'],
+        'defeats': ['scissors', 'alligator'],
         'defeated_by': ['paper', 'spock']
     },
     'paper': {
         'defeats': ['rock', 'spock'],
-        'defeated_by': ['scissors', 'lizard']
+        'defeated_by': ['scissors', 'alligator']
     },
     'scissors': {
-        'defeats': ['paper', 'lizard'],
+        'defeats': ['paper', 'alligator'],
         'defeated_by': ['rock', 'spock']
     },
-    # Added lizard
-    'lizard': {
+    # Added alligator
+    'alligator': {
 
         'defeats': ['paper', 'spock'],
         'defeated_by': ['rock', 'scissors']
@@ -27,7 +27,7 @@ rolls = {
     # Added spock
     'spock': {
         'defeats': ['rock', 'scissors'],
-        'defeated_by': ['lizard', 'paper']
+        'defeated_by': ['alligator', 'paper']
     },
 }
 
